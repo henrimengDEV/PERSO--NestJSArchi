@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "nest-js-archi-db.cqcdro9kxdke.eu-west-3.rds.amazonaws.com",
+  "port": 5432,
+  "username": "postgres",
+  "password": "postgres",
+  "database": "nest-js-archi-db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
